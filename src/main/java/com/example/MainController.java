@@ -58,6 +58,7 @@ public class MainController {
             Storage.write(generateLine());
         }else {
             System.out.println("Hiba! 5 számot kell kiválasztani!");
+            App.setRoot("dialogScene");
         }
     }
 
