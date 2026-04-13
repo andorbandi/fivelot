@@ -55,6 +55,7 @@ public class MainController {
         System.out.println(countSelected());
         if(countSelected() == 5) {
             System.out.println("Mentés...");
+            
             Storage.write(generateLine());
         }else {
             System.out.println("Hiba! 5 számot kell kiválasztani!");
